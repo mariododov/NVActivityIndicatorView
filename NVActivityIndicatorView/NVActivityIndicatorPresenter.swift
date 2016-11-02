@@ -132,7 +132,7 @@ public class NVActivityIndicatorPresenter {
         activityIndicatorView.startAnimating()
         activityContainer.addSubview(activityIndicatorView)
         
-        let width = activityContainer.frame.size.width / 3
+        let width = activityContainer.frame.size.width
         if let message = activityData.message , !message.isEmpty {
             let label = UILabel(frame: CGRect(x: 0, y: 0, width: width, height: 30))
             label.center = CGPoint(
